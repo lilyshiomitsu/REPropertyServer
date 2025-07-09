@@ -16,7 +16,7 @@ public class REServer {
 
             // start Javalin on port 8001
             var app = Javalin.create()
-                    .get("/", ctx -> ctx.result("Real Estate server is running"))
+                    .get("/", ctx -> ctx.result("Real Estate Property Server is running"))
                     .start(8001);
 
             // configure endpoint handlers to process HTTP requests
